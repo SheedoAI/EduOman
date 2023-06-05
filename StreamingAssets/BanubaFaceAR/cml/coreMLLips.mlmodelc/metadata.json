@@ -1,0 +1,62 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Float16",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 96 × 96)",
+        "shortDescription" : "",
+        "shape" : "[1, 96, 96]",
+        "name" : "output1",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 2,
+    "computePrecision" : "Float16",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.13.2",
+      "tvOS" : "11.2",
+      "watchOS" : "4.2",
+      "iOS" : "11.2",
+      "macCatalyst" : "11.2"
+    },
+    "neuralNetworkLayerTypeHistogram" : {
+      "PoolingMax" : 4,
+      "Reshape" : 1,
+      "ActivationReLU" : 12,
+      "Flatten" : 1,
+      "ResizeBilinear" : 4,
+      "BatchNorm" : 12,
+      "Convolution" : 22,
+      "ActivationSigmoid" : 1,
+      "InnerProduct" : 2
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetwork"
+    },
+    "userDefinedMetadata" : {
+      "coremltoolsVersion" : "3.4"
+    },
+    "generatedClassName" : "lips_segmentation96x96_9fp16",
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 4 × 96 × 96)",
+        "shortDescription" : "",
+        "shape" : "[4, 96, 96]",
+        "name" : "input1",
+        "type" : "MultiArray"
+      }
+    ],
+    "method" : "predict"
+  }
+]
