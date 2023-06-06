@@ -1,0 +1,220 @@
+{
+  "layer_shapes" : {
+    "max_pooling2d_10_output" : {
+      "k" : 16,
+      "w" : 24,
+      "n" : 1,
+      "h" : 24
+    },
+    "up_sampling2d_1_output" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "re_lu_24_output" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "re_lu_29_output" : {
+      "k" : 16,
+      "w" : 24,
+      "n" : 1,
+      "h" : 24
+    },
+    "sep_conv2d_down_s0_output_intermin_" : {
+      "k" : 32,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "re_lu_30_output" : {
+      "k" : 8,
+      "w" : 48,
+      "n" : 1,
+      "h" : 48
+    },
+    "output1" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "h" : 96
+    },
+    "sep_conv2d_ups_0_1_output_intermin_" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "re_lu_22_output" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "re_lu_27_output" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "max_pooling2d_9_output" : {
+      "k" : 8,
+      "w" : 48,
+      "n" : 1,
+      "h" : 48
+    },
+    "sep_conv2d_up_s2_output_intermin_" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "up_sampling2d_4_output" : {
+      "k" : 8,
+      "w" : 96,
+      "n" : 1,
+      "h" : 96
+    },
+    "finalConv_output" : {
+      "k" : 1,
+      "w" : 96,
+      "n" : 1,
+      "h" : 96
+    },
+    "flatten1_output" : {
+      "k" : 2304,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "sep_conv2d_down_s1_output_intermin_" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "re_lu_19_output" : {
+      "k" : 8,
+      "w" : 96,
+      "n" : 1,
+      "h" : 96
+    },
+    "sep_conv2d_downs_2_1_output_intermin_" : {
+      "k" : 16,
+      "w" : 24,
+      "n" : 1,
+      "h" : 24
+    },
+    "re_lu_25_output" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "sep_conv2d_ups_1_1_output_intermin_" : {
+      "k" : 32,
+      "w" : 24,
+      "n" : 1,
+      "h" : 24
+    },
+    "sep_conv2d_up_s1_output_intermin_" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "reshape_3_output" : {
+      "k" : 64,
+      "w" : 6,
+      "n" : 1,
+      "h" : 6
+    },
+    "re_lu_20_output" : {
+      "k" : 16,
+      "w" : 48,
+      "n" : 1,
+      "h" : 48
+    },
+    "up_sampling2d_3_output" : {
+      "k" : 16,
+      "w" : 48,
+      "n" : 1,
+      "h" : 48
+    },
+    "re_lu_23_output" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "sep_conv2d_up_s0_output_intermin_" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "input1" : {
+      "k" : 4,
+      "w" : 96,
+      "n" : 1,
+      "h" : 96
+    },
+    "sep_conv2d_down_s2_output_intermin_" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "re_lu_28_output" : {
+      "k" : 32,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "dense128_s_output" : {
+      "k" : 128,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "up_sampling2d_2_output" : {
+      "k" : 32,
+      "w" : 24,
+      "n" : 1,
+      "h" : 24
+    },
+    "max_pooling2d_12_output" : {
+      "k" : 64,
+      "w" : 6,
+      "n" : 1,
+      "h" : 6
+    },
+    "dense2304_s_output" : {
+      "k" : 2304,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "re_lu_21_output" : {
+      "k" : 32,
+      "w" : 24,
+      "n" : 1,
+      "h" : 24
+    },
+    "re_lu_26_output" : {
+      "k" : 64,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    },
+    "max_pooling2d_11_output" : {
+      "k" : 32,
+      "w" : 12,
+      "n" : 1,
+      "h" : 12
+    }
+  }
+}
